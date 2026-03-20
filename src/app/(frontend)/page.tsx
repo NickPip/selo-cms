@@ -7,13 +7,15 @@ import { Services } from '@/components/landing/Services'
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white">
-      <Hero2 />
-      <Services />
-      <Features />
-      <About />
-      <Contact />
-      <Footer />
+    <main className="min-h-screen min-w-0 overflow-x-hidden bg-white">
+      <div className="page-load-stagger">
+        <Hero2 />
+        <Services />
+        <Features />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </main>
   )
 }

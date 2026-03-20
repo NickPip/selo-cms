@@ -365,7 +365,7 @@ export function Services() {
   }, [services, visibleCards.length])
 
   return (
-    <section id="services" className="bg-gradient-to-b from-purple-50/50 via-blue-50/30 to-white py-24">
+    <section id="services" className="overflow-x-hidden bg-gradient-to-b from-purple-50/50 via-blue-50/30 to-white py-24">
       <div className="container">
         <div className="mb-16 flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-end">
           <div className="flex-1">

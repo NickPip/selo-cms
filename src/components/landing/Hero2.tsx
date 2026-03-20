@@ -65,7 +65,7 @@ export function Hero2() {
         ka: {
           badge: 'ავტომატიზაცია',
           title: 'პროცესების\nავტომატიზაცია',
-          description: 'ბიზნეს პროცესების ოპტიმიზაცია და ავტომატიზაცია ეფექტურობის გაზრდისთვის',
+          description: 'ბიზნეს პროცესების ოპტიმიზაცი, ავტომატიზაცია, სტაბილიზაცია, ხარსხიანი და ეფექტური პროცესების გაზრდისთვის',
         },
         en: {
           badge: 'Automation',
@@ -273,9 +273,9 @@ export function Hero2() {
         ) : null}
       </nav>
 
-      <div className="container relative z-10 pb-16 pt-28 sm:pb-20 sm:pt-32">
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-6 text-center lg:text-left">
+      <div className="container relative z-10 pb-16 pt-20 sm:pb-20 sm:pt-28 lg:pt-32">
+        <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
+          <div className="min-h-[300px] space-y-6 text-center lg:min-h-0 lg:text-left">
             <div className="flex justify-center overflow-hidden lg:justify-start">
               <span className="animate-slideIn inline-flex items-center gap-2 rounded-full border border-blue-600/20 bg-gradient-to-r from-blue-600/10 to-green-600/10 px-4 py-2 text-sm text-blue-700">
                 <span className="h-2 w-2 animate-pulse rounded-full bg-gradient-to-r from-blue-600 to-green-600" />
@@ -331,7 +331,7 @@ export function Hero2() {
             </div>
           </div>
 
-          <div className="relative mt-8 flex items-center justify-center overflow-visible lg:mt-0 lg:justify-end">
+          <div className="relative mt-8 flex items-center justify-center overflow-hidden lg:overflow-visible lg:mt-0 lg:justify-end">
             <div className="relative w-full max-w-[600px] lg:max-w-[1800px] lg:translate-x-[20%] lg:translate-y-[15%] lg:scale-150">
               <Image
                 src="/images/hero/hero.png"

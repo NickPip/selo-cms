@@ -124,7 +124,7 @@ export function About() {
           >
             <div className="relative">
               <div className="absolute -inset-4 animate-pulse rounded-full bg-gradient-to-br from-green-500 to-green-600 opacity-20 blur-xl" />
-              <div className="relative flex h-[400px] w-[400px] items-center justify-center rounded-full bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 shadow-2xl ring-8 ring-green-500/30 transition-all duration-500 hover:ring-green-500/50 lg:h-[500px] lg:w-[500px]">
+              <div className="relative flex h-[280px] w-[280px] shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 shadow-2xl ring-8 ring-green-500/30 transition-all duration-500 hover:ring-green-500/50 sm:h-[360px] sm:w-[360px] lg:h-[500px] lg:w-[500px]">
                 <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_30%_25%,rgba(255,255,255,.22),transparent_42%)]" />
                 <div className="px-8 text-center text-white">
                   <p className="text-sm tracking-[0.18em] text-white/70 uppercase">SELO Team</p>
